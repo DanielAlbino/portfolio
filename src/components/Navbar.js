@@ -14,10 +14,10 @@ class Navbar extends Component {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <Link class="nav-item nav-link menu-item" to="/">Home</Link>
-                    <Link class="nav-item nav-link menu-item" to="/Work">Work</Link>
-                    <Link class="nav-item nav-link menu-item" to="/About">About</Link>
-                    <Link class="nav-item nav-link menu-item" to="/Contact">Contact</Link>
+                    <Link class="nav-item nav-link menu-item" to="/portfolio">Home</Link>
+                    <Link class="nav-item nav-link menu-item" to="/portfolio/Work">Work</Link>
+                    <Link class="nav-item nav-link menu-item" to="/portfolio/About">About</Link>
+                    <Link class="nav-item nav-link menu-item" to="/portfolio/Contact">Contact</Link>
                     <a class="nav-item nav-link github" href={github}><i class="fab fa-github-square"></i></a>
                     <a class="nav-item nav-link linkedin" href={linkedin}><i class="fab fa-linkedin"></i></a>
                 </div>
