@@ -4,19 +4,24 @@ html, body
 
 /* NAVBAR */
 .menu-item
-    color: #282c34 !important
+    color: #dcdcdd !important
     font-weight: bold
     &:hover
-        color:  #371de2 !important
+        color: #6464c4  !important
 
 .navbar
+    position: -webkit-sticky
+    position: sticky
+    top: 0
     padding-top: 5px
     padding-bottom: 5px
-    box-shadow: 5px 5px 15px black
+    /* box-shadow: 5px 5px 15px black */
+    background-color: #191c22 !important
+    z-index: 2
 
 .navbar-brand
     font-weight: bold
-    color: #282c34 !important
+    color: #dcdcdd !important
 
 #logo
     width: 25px
@@ -25,13 +30,24 @@ html, body
 
 /* Social Media */
 .linkedin
-    color: #0033cc !important
+    color: #3263f8 !important
     &:hover
         color: #809fff !important
 .github
-    color: black !important
+    color: #ffffff !important
     &:hover
-        color:  #737373 !important
+        color:  #adabab !important
+/* Footer */
+.footer
+    color: white
+    background-color: #191c22
+    position: relative
+    left: 0
+    bottom: 0
+    height: 50px
+    width: 100%
+    overflow: hidden
+     
 
 /* RESPONSIVE */
 
@@ -87,6 +103,27 @@ html, body
     .cards .card
         margin: 0px 25px
 
-    .footer-copyright
-        color: white
-        background-color: #191c22
+    /* Email Form */
+    .email-form
+        margin-top: 10px    
+        text-align: center
+        left: 28%
+        width: 600px
+        height: 467px
+        margin-bottom: 50px
+
+    .email-form form 
+        background-color: white
+        padding: 0px 30px
+        height: 500px
+        box-shadow: 5px 5px 15px black
+
+    form h1 
+        padding: 20px 0px
+    
+    .btn
+        margin-top: 30px
+        font-size: 18px
+        width: 300px
+        border-radius: 50px
+        box-shadow: 4px 4px 8px  #002699
