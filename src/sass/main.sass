@@ -23,7 +23,6 @@ html, body
     margin-top: -5px !important
     height: 25px
 
-
 /* Social Media */
 .linkedin
     color: #0033cc !important
@@ -33,3 +32,61 @@ html, body
     color: black !important
     &:hover
         color:  #737373 !important
+
+/* RESPONSIVE */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) and (orientation: portrait)
+    /* Carousel */
+    .carousel
+        height: 350px
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (orientation: landscape)
+    /* Carousel */
+    .carousel
+        height: 300px
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (orientation: portrait)
+    /* Carousel */
+    .carousel
+        height: 300px
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (orientation: portrait)
+    /* Carousel */
+    .carousel
+        height: 600px
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (orientation: portrait)
+    /* Carousel */
+    .carousel
+        height: 600px
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+    .title
+        color: white
+        text-align: center
+        margin-bottom: 35px
+    /* Carousel */
+    .carousel
+        height: 500px
+
+    /* Spaces between cards */
+    .spacing
+        width: 10px
+
+    /* Style for cards div */
+    .cards
+        justify-content: center
+        margin-bottom: 35px
+
+    .cards .card
+        margin: 0px 25px
+
+    .footer-copyright
+        color: white
+        background-color: #191c22

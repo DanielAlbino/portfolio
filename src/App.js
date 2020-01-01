@@ -1,14 +1,19 @@
 import React from 'react';
 import './sass/main.sass'
 import NavBar from './components/Navbar'
-import Home from './pages/Home'
+import Footer from './components/Footer'
+import Routes from './route/index'
+import {BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-      <Home />
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar/>
+        <Routes />
+        <Footer/>
+      </div>
+    </Router>
   );
 }
 
